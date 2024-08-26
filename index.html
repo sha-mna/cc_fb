@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./fb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logoText" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="loginControls">
+                        <tr>
+                            <td><label class="loginLabel">Email or Phone</label></td>
+                            <td><label class="loginLabel">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input class="loginText" placeholder="talk@packapeer.com" type="text"></td>
+                            <td><input class="loginText" placeholder="**********" type="text"></td>
+                            <td><input class="loginBtn" type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten" href="forgotten.html">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main">
+            <div class="leftSection">   
+                <div class="para">
+                    Facebook helps you connect and share with the<br> people in your life.
+                </div>
+                <img class="image" src="./social-media-763731_1280.jpg" alt="">
+            </div>
+            <div class="rightSection">
+                <h1>Create an account</h1>
+                <p>It's quick and easy.</p>
+                <div class="signupControls">
+                    <form class="signupForm" action="index.html" class="signupForm">
+                        <div class="signUpFieldName">
+                            <input name="fname" class="fields" type="text" placeholder="First Name">
+                            <input name="sname" class="fields" type="text" placeholder="Surname">
+                        </div>
+                        <div class="signupField">
+                            <input name="emailAddress" type="text" class="field" placeholder="Mobile number or email address">
+                        </div>
+                        <div class="signupField">
+                            <input name="password" type="text" class="field" placeholder="New Password">
+                        </div>
+                        <div class="signupField">
+                            <label class="day">Birthday</label><br>
+                            <div style="display: flex; padding-top: 10px;">
+                                <div>
+                                    <select class="dob" name="day">
+                                        <option value="">Day</option>
+                                        <option>01</option>
+                                        <option>02</option>
+                                    </select>
+                                    <select class="dob" name="month">
+                                        <option value="">Date</option>
+                                        <option>Jan</option>
+                                        <option>Feb</option>
+                                    </select>
+                                    <select class="dob" name="year">
+                                        <option value="">Year</option>
+                                        <option>1993</option>
+                                        <option>1992</option>
+                                    </select><br>
+                                </div>
+                                <div class="qstn">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="signupField">
+                            <label class="gender">Gender</label>
+                            <input type="radio" style="display: none;"><br>   
+
+                            <div style="display: flex; padding-top: 10px;">
+                                <div>
+                                    <input class="circle" type="radio">
+                                    <label class="gen">Female</label>
+    
+                                    <input class="circle" type="radio">
+                                    <label class="gen">Male</label>
+    
+                                    <input class="circle" type="radio">
+                                    <label class="gen">Custom</label>
+                                </div>
+                                <div class="qstn">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                </div>          
+                            </div>   
+                        </div><br>
+                        <div class="policy">
+                            By clicking Sign Up, you agree to our<span style="color: rgb(59, 59, 155);"> Terms, Data Policy</span><br>
+                            and <span style="color: rgb(59, 59, 155);">Cookie Policy.</span> You may receive SMS notifications from<br>
+                            us and can opt out at any time.
+                        </div>                        
+                        <div class="btn">
+                            <button class="sub" type="submit">Sign Up</button>
+                        </div>
+                        <div class="page">
+                            <span style="color: rgb(59, 59, 155);">Create a Page</span> for a celebrity, band or business.
+                        </div>                       
+                    </form>
+                </div>
+            </div>          
+        </div>
+    </div> 
+</body>
+</html>
+

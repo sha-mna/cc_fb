@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+}
+
+.header {
+    background: #3b5998;
+    width: 100%;
+    height: 85px;
+}
+
+.logo {
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+
+.logoText {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    margin-left: 170px;
+}
+
+.login {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+
+.loginControls{
+    margin-left: 115px;
+}
+
+.loginLabel {
+    color: #fff;
+    font-size: 11px;
+}
+
+.loginText {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.loginBtn {
+    background: #4267b2;
+    color: #fff;
+    height: 20px;
+    width: 40px;
+    font-size: 11px;
+    border-color: #29487d;
+    border-style: none;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background: #9cb4d8;
+}
+
+.forgotten {
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    color: #9cb4d8;
+}
+
+.main {
+    background: linear-gradient(white, #D3D8E8);
+    width: 100%;
+    height: 525px;
+}
+
+.leftSection {
+    width: 50%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+
+.para {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.image {
+    padding-top: 20px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.rightSection {
+    width: 39%;
+    float: left;
+}
+
+input {
+    height: 20px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+
+.input1 {
+    margin: 8px;
+    height: 30px;
+    width: 355px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-left: -1px;
+}
+
+.fields {
+    padding-left: 10px;
+    height: 25px;
+    width: 200px;  
+}
+
+.field {
+    padding-left: 10px;
+    margin: 8px;
+    height: 25px;
+    width: 410px;
+    font-size: 15px;
+    margin-left: -1px;
+    border: 1px solid gray;
+}
+
+.dob {
+    border-color: gray;
+    border-radius: 5px; 
+}
+
+.day {
+    font-size: 12px;
+    color: grey;
+    font-weight: bold;
+}
+
+.qstn {
+    padding-left: 10px;
+    color: gray;
+}
+
+.gender {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    margin-top: 10px;
+}
+
+.gen {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+}
+
+.email {
+    height: 24px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    border-color: #fff;    
+}
+
+.btn {
+    padding-top: 20px;
+}
+
+.sub {
+    background-color: #3ba85e;
+    width: 170px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.page {
+    padding-top: 40px;
+    font-size: 11px;
+    font-weight: bold;
+    color: grey;
+}
+
+.policy {
+    font-size: 10px;
+    color: grey;
+}
+
